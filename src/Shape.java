@@ -6,6 +6,8 @@ public abstract class Shape {
     Shape(){
     }
     Shape(String color,boolean lleno){
+        this.setColor(color);
+        this.setLleno(lleno);
     }
 
 
