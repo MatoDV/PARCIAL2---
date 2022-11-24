@@ -8,6 +8,7 @@ public abstract class Shape {
     Shape(String color,boolean lleno){
     }
 
+
     public String getColor() {
         return color;
     }

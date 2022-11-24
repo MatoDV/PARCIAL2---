@@ -29,4 +29,6 @@ public class Rectangle extends Shape{
     public void setLargo(double largo) {
         this.largo = largo;
     }
+    
+
 }
