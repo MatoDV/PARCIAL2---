@@ -3,8 +3,12 @@ public class Square extends Rectangle {
     Square(){
     }
     Square(double side){
+        this.setSide(side);
     }
     Square(double side, String color, boolean lleno){
+        this.setSide(side);
+        this.setColor(color);
+        this.setLleno(lleno);
     }
 
     public double getSide() {

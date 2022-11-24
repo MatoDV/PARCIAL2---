@@ -4,8 +4,14 @@ public class Rectangle extends Shape{
     Rectangle(){
     }
     Rectangle(double ancho, double largo){
+        this.setAncho(ancho);
+        this.setLargo(largo);
     }
     Rectangle(double ancho, double largo, String color, boolean lleno){
+        this.setAncho(ancho);
+        this.setLargo(largo);
+        this.setColor(color);
+        this.setLleno(lleno);
     }
 
     public double getAncho() {

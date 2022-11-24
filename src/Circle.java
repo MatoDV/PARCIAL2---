@@ -3,8 +3,12 @@ public class Circle extends Shape{
     Circle(){
     }
     Circle(double radio){
+        this.setRadio(radio);
     }
     Circle(double radio,String color,boolean lleno){
+        this.setRadio(radio);
+        this.setColor(color);
+        this.setLleno(lleno);
     }
 
     public double getRadio() {
