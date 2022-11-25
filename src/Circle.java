@@ -24,7 +24,7 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "Circulo{" +
                 "radio=" + radio +
                 ", color='" + color + "" +
         ", lleno=" + lleno +

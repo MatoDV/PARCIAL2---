@@ -27,7 +27,7 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
-            return "Rectangle{" +
+            return "Rectangulo{" +
                     "ancho=" + ancho + "largo="+largo+
                     ", color='" + color + "" +
             ", lleno=" + lleno +
