@@ -13,6 +13,30 @@ public class Rectangle extends Shape{
         this.setColor(color);
         this.setLleno(lleno);
     }
+    @Override
+    double getArea(){
+        double area = largo * ancho;
+        return area;
+    }
+
+    @Override
+    double getPerimetro(){
+        double perimetro = 2*largo + 2*ancho;
+        return perimetro;
+    }
+
+    @Override
+    public String toString() {
+            return "Rectangle{" +
+                    "ancho=" + ancho + "largo="+largo+
+                    ", color='" + color + "" +
+            ", lleno=" + lleno +
+                    ", area=" + getArea() +
+                    ", perimetro=" + getPerimetro() +
+                    '}';
+        }
+
+
 
     public double getAncho() {
         return ancho;
