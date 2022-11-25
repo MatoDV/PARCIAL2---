@@ -26,4 +26,8 @@ public abstract class Shape {
     public void setLleno(boolean lleno) {
         this.lleno = lleno;
     }
+
+    abstract double getArea();
+
+    abstract double getPerimetro();
 }
