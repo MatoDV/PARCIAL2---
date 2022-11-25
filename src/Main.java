@@ -1,10 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-    Circle circulo = new Circle(5,"red",true);
+    Shape circulo = new Circle(1.0,"red",true);
 
-    Rectangle rectangulo = new Rectangle(4,7,"red",true);
+    Shape rectangulo = new Rectangle(1.0,1.0,"red",true);
 
-    Square cuadrado = new Square(5,"red",true);
+    Shape cuadrado = new Square(1.0,"red",true);
+
+
+        System.out.println(circulo);
+        System.out.println(rectangulo);
+        System.out.println(cuadrado);
 
 
     }
