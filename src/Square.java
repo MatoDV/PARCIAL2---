@@ -18,4 +18,12 @@ public class Square extends Rectangle {
     public void setSide(double side) {
         this.side = side;
     }
+    public String toString() {
+        return "Cuadrado{" +
+                "Lado=" + side +
+                ", color='" + color + "" +
+        ", lleno=" + lleno+
+                '}';
+    }
+
 }
